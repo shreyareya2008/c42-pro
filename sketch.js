@@ -202,7 +202,7 @@ function reset(){
   kangaroo.visible = true;
   //change animation of the kangaroo
   kangaroo.changeAnimation("running", kangaroo_running);
- kangaroo.addAnimation("collided", kangaroo_collided);
+//kangaroo.addAnimation("collided", kangaroo_collided);
   //destroy the shrubs and obstacle group
   shrubsGroup.destroyEach();
   obstaclesGroup.destroyEach();
